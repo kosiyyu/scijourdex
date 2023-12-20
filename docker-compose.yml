@@ -1,0 +1,20 @@
+version: '3.8'
+
+services:
+  postgres:
+    extends:
+      file: ./scijourdex-backend/docker-compose.yml
+      service: postgres
+
+  backend:
+    extends:
+      file: ./scijourdex-backend/docker-compose.yml
+      service: scijourdex-backend
+
+  frontend:
+    extends:
+      file: ./scijourdex-frontend/docker-compose.yml
+      service: scijourdex-frontend
+
+volumes:
+  postgres-data:
