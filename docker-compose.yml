@@ -16,5 +16,10 @@ services:
       file: ./scijourdex-frontend/docker-compose.yml
       service: scijourdex-frontend
 
+    webscraper:
+      extends:
+        file: ./webscraper/docker-compose.yml
+        service: webscraper
+
 volumes:
   postgres-data:
