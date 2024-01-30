@@ -1,9 +1,9 @@
 [submodule "scijourdex-backend"]
-	path = scijourdex-backend
-	url = git@github.com:kosiyyu/scijourdex-backend.git
+    path = scijourdex-backend
+    url = https://github.com/kosiyyu/scijourdex-backend.git
 [submodule "scijourdex-frontend"]
-	path = scijourdex-frontend
-	url = git@github.com:kosiyyu/scijourdex-frontend.git
+    path = scijourdex-frontend
+    url = https://github.com/kosiyyu/scijourdex-frontend.git
 [submodule "webscraper"]
-	path = webscraper
-	url = git@github.com:kosiyyu/webscraper.git
+    path = webscraper
+    url = https://github.com/kosiyyu/webscraper.git
